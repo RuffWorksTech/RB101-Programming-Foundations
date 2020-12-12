@@ -1,0 +1,6 @@
+welcome: 'Welcome to the Mortgage Calculator!'
+loan_amt: 'Enter the loan amount. Enter only a whole integer and omit decimals and/or commas.'
+invalid_number: 'Hmm... Looks like an invalid number. Did you read the instructions?'
+apr: 'Enter the APR. Enter as a percentage point (5 instead of .05). Decimals are OK.'
+loan_duration: 'Enter the loan duration in years. Format as a whole integer.'
+another_calc?: 'Would you like to perform another calculation?'
