@@ -1,0 +1,3 @@
+### You are given a method named spin_me that takes a string as an argument and returns a string that contains the same words, but with each word's characters reversed. Given the method's implementation, will the returned string be the same object as the one passed in as an argument or a different object? ###
+
+No, it will not be the same object because the method mutated the caller. It is the same object type in the fact that it is still a string, but it was mutated and is now pointed to a different object ID.
