@@ -32,8 +32,8 @@ Write a method that calculates and returns the index of the first Fibonacci numb
 
 def find_fibonacci_index_by_length(num_digits)
   arr = [1, 1]
-  until arr[-1].to_s.size == num_digits
-    arr << arr[-1] + arr[-2]
+  until arr.last.to_s.size == num_digits
+    arr << arr.last + arr[-2]
   end
   arr.find_index(arr.last) + 1
 end
