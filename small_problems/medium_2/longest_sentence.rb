@@ -20,7 +20,7 @@ SENTENCE_DELIMITERS = %w(. ! ?)
 def longest_sentence(file)
   longest = 0
   
-  File.read(file).split(/\.|\?|!/).each do |sentence|
+  File.read(file).split(/\.|\?|\!/).each do |sentence|
     longest = sentence.split.size if sentence.split.size > longest
   end
   longest
